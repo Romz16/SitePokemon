@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #1e1e2a;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./img/pokemon\ 1.jpg');
+    background-repeat:repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+.header-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./img/8-british-landmarks-in-pokemon-sword-and-shield.png');
+    background-repeat:repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+}
+h1{
+    font-size:50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.social-midia{
+    margin: 1rem;
+    display: flex;
+   
+}
+
+.social-midia a {
+    text-decoration: none;
+    color: #1e1e2a;
+    padding: 1rem 4rem;
+    border: 1px solid #1e1e2a; 
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    transition: 0.5s ease-in-out;
+    position: relative;
+}
+
+a:hover{
+    background-color: #ffffff;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+.paragrafo{
+    color: #FFF;
+    background:#0000005d;
+   padding: 5px 40px;
+   margin-top: 20;
+   border-radius: 10pxS;
+}
+.pokemons{
+    color: #FFF;
+    background:#0000005d;
+   padding: 5px 40px;
+   margin-top: 20;
+   border-radius: 10pxS;
+
+}
+
+
+.container2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+.card-c{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3 rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:firebrick;
+    background-image: url('./img/charmander\ 1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:grayscale(0,5);
+    color:#1e1e2a;
+    transition: 0,5s ease-in-out;
+}
+.card-s{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3 rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    background-image: url('./img/squirtle.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:grayscale(0,5);
+    color:#1e1e2a;
+    transition: 0,5s ease-in-out;
+}
+.card-b{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3 rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    background-image: url('./img/bulbasaur.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:grayscale(0,5);
+    color:#1e1e2a;
+    transition: 0,5s ease-in-out;
+}
+.footer{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   height: 100vh;
+   width: 100%;
+}
+.container-fot{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+}
+
+.container-fot:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.589);
+    background-size: cover;
+    z-index: -1;
+}
+.contact-box{
+    min-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.253);
+    background: url('./img/6eb7eb8deefa227ceb943706bbafc12b.jpg') no-repeat left ;
+}
+
+.right{
+    padding: 25px 40px;
+}
+
+.h1{
+    position: relative;
+    padding: 0 0 10px;
+}
+h1:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 80px;
+    border-radius: 2px;
+    background-color: #FFF;
+}
+
+.field{
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0,0.2 );
+    outline: none;
+    background-color: rgba(230,230,230,0.6);
+    padding: 0.5rem 1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+textarea{
+    min-height: 150px;
+}
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #1471d9;
+}
+.field:focus{
+    border: 2px solid rgba(30,85,250, 0.47);
+    background-color: #FFF;
+}
+
+@media screen and (max-width: 880px){
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        height: 200px;}
